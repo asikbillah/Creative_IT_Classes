@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-transform: capitalize;
+
+}
+li a{
+    text-decoration: none;
+}
+
+
+/* Navbar css start */
+
+.container-fluid{
+    background-color: rgb(233, 238, 233);
+}
+
+.profile_wrapper ul{
+    align-content: center;
+    text-align: center;
+}
+
+.logo img{
+    height: 60px;
+    width: 200px;
+}
+
+.option{
+    height: 16px;
+    width: 18px;
+}
+
+.profile{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+/* Navbar css end */
+
+/* Left nav css start */
+
+.col_one{
+    background-color: rgb(249, 250, 252);
+}
+
+.left_svg img{
+    width: 100px;
+    height: 120px;
+
+}
+
+img{
+    display: block;
+}
+
+li a{
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+}
+
+/* Left nav css end */
+
+
+/* Dashbord css start */
+
+
+.image img{
+    height: 200px;
+
+}
+
+.row2{
+    color: white;
+    font-weight: 100;
+    border-radius: 10px;
+    background-color:rgb(255, 102, 0);
+    padding-top: 50px;
+}
+
+.button button{
+    color: black;
+    padding: 5px 20px;
+    border-radius: 30px;
+    background-color: rgb(227, 201, 8);
+}
+.button button:hover{
+    color: white;
+    background-color: rgb(172, 152, 4);
+}
+
+.personal_details{
+    padding-top: 20px;
+    font-weight: 100;
+}
+
+
+/* Dashbord css end */
+
+/* course payment css start */
+.col_three{
+    padding-left: 10px;
+}
+.row3{
+    background-color:rgb(255, 102, 0);
+    border-radius: 10px;
+}
+
+.course{
+    padding: 40px;
+    color: white;
+}
+.course h4{
+    color: white;
+}
+.course p{
+    font-weight: 100;
+}
+
+.row4{
+    color: white;
+}
+
+.row4 h6{
+    color: white;
+}
+
+.row4 p{
+    font-weight: 100;
+}
+.div1{
+    background-color: rgb(217, 45, 7);
+    padding: 0px 10px;
+}
+.div1 p{
+    color: white;
+    font-weight: 100;
+
+}
+.div1 h3{
+    color: white;
+
+}
+
+.row6{
+    padding-bottom: 20px;
+}
+
+
+
+/* course payment css end */

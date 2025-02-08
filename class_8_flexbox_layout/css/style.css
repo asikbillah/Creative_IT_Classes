@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 2px solid red;
+    height: 800px;
+    width: 1200px;
+}
+
+.row1{
+    display: flex;
+    gap: 30px;
+}
+
+.div1,
+.div2,
+.div3{
+    height: 100px;
+    width: 150px;
+    background-color: greenyellow;
+}
+
+.div2{
+    flex-grow: 3;
+}
+
+.row2{
+    display: flex;
+    gap: 20px;
+}
+
+.div4,
+.div5{
+    height: 700px;
+    width: 200px;
+    background-color: rgb(157, 157, 4);
+}
+.div4{
+    flex-grow: 2;
+}
+
+.div5{
+    flex-grow: 3;
+}
+

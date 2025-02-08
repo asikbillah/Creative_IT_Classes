@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Menu section css start*/
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+.menu{
+    background-color: black;
+    height: 80px;
+}
+
+
+.menu ul li{
+    position: relative;
+    float: left;
+}
+
+.menu ul li a{
+    color: white;
+    padding: 0px 40px;
+    text-transform: capitalize;
+    line-height: 80px;
+}
+.menu ul li a:hover{
+    background-color: bisque;
+    color: black;
+    border-radius: 5px;
+
+}
+
+.menu ul li ul{
+    position: absolute;
+    background-color: black;
+    float: left;
+    visibility: hidden;
+    width: 250px;
+}
+
+.menu ul li ul li{
+    width: 100%;
+
+}
+
+.menu ul li:hover > ul{
+    visibility: visible;
+    z-index: 3;
+}
+
+.menu ul li ul li ul{
+    position: absolute;
+    top: 0;
+    left: 100%;
+
+}
+
+/* Menu sectio css End */
+
+
+/* Hero section css start */
+
+.hero{
+    background-image: url(/assets/2.jpg);
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    padding: 200px 0px;
+    z-index: 1;
+
+}
+
+.hero h1{
+    color: aliceblue;
+}
+
+
+/* Common css for button start */
+
+.btn a{
+    padding: 10px 20px;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    transition: color .5s;
+    overflow: hidden;
+}
+
+.btn a::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transition:0.5s;
+}
+
+
+.btn a:hover{
+    color: darkgreen;
+}
+
+
+/* Common css for button end */
+
+
+
+/* Left to right css end */
+
+.btn1 a{
+    background-color: bisque;
+}
+
+.btn1 a::after{
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: coral;
+}
+
+.btn1 a:hover::after{
+    width: 100%;
+    transition: .5s;
+}
+
+/* Left to right css end */
+
+
+
+/* Right to Left css start */
+
+.btn2 a{
+    background-color: bisque;
+}
+
+.btn2 a::after{
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 0;
+    background-color: coral;
+}
+
+.btn2 a:hover::after{
+    width: 100%;
+    transition: .5s;
+}
+
+/* Right to Left css end */
+
+
+/* Top to bottom css start */
+
+.btn3 a{
+    background-color: bisque;
+}
+
+.btn3 a::after{
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    background-color: coral;
+}
+
+.btn3 a:hover::after{
+    height: 100%;
+    transition: .5s;
+}
+
+
+/* Top to bottom css end */
+
+
+/* Bottom to Top css start */
+
+.btn4 a{
+    background-color: bisque;
+}
+
+.btn4 a::after{
+    bottom: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    background-color: coral;
+}
+
+.btn4 a:hover::after{
+    height: 100%;
+    transition: .5s;
+}
+
+/* Bottom to Top css end */
+
+
+/* Both side slide css Start */
+.btn5 a{
+    background-color: bisque;
+}
+
+.btn5 a::after{
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: 0;
+    background-color: coral;
+}
+
+.btn5 a:hover::after{
+    width: 100%;
+    left: 0;
+}
+
+/* Both side slide css End */
+
+
+/* Both side slide css Start */
+
+.btn6 a{
+    background-color: coral;
+}
+
+.btn6 a::after{
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: bisque;
+}
+
+
+.btn6 a:hover::after{
+    width: 0;
+    left: 50%;
+}
+
+/* Both side slide css End */
+
+
+
+
+.content{
+    position: relative;
+    z-index: 2;
+
+}
+
+.hero::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.347);
+}
