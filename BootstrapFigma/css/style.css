@@ -1,0 +1,250 @@
+body{
+    font-family: "Inter", serif;
+}
+
+section{
+    padding: 60px 0px;
+}
+
+h1{
+    font-size: 65px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 45px;
+
+}
+h4{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+p{
+    color: #a09f9f;
+    font-size: 16px;
+}
+/* nav section css start */
+.nav-item .active{
+    color: #E90B24!important;
+}
+
+.nav-link:hover{
+    color: #E90B24;
+}
+.nav-item{
+    font-weight: 500;
+}
+
+.btn-danger{
+    background-color: #E90B24;
+
+}
+
+.navbar-nav{
+    gap: 64px;
+}
+
+.navbar-toggler{
+    border: 1px solid red;
+}
+
+.navbar-toggler-icon{
+   fill: #E90B24;
+}
+
+/* nav section css end */
+
+/* Banner section css start */
+
+.banner_first h1 span{
+    color: #E90B24;
+    
+}
+.banner_first p{
+    width: 395px;
+    
+}
+
+.banner_second img{
+    margin-left: -13rem;
+}
+
+/* Banner section css end */
+
+/* instragram counting section css start */
+.instragram_container{
+    background-color: #eeeeeea8;
+    border-radius: 15px;
+}
+
+.instragram_container .col-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+
+/* instragram counting section css end */
+
+/* Pump section css start */
+
+.pump_container .col-8{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.package .p-5{
+    height: 400px;
+}
+
+
+
+.package .p-5{
+    box-shadow: 0 8px 55px 0 rgba(195, 195, 195, 0.2), 0 8px 20px 0 rgba(181, 181, 181, 0.19);
+    border-radius: 30px;
+
+}
+
+.package h4{
+    padding: 20px 0px;
+}
+/* Pump section css end */
+
+/* Video section css start */
+.video_image{
+    position: relative;
+}
+
+
+.video1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 120px;
+    width: 120px;
+    background-color: rgb(250, 173, 173);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: box-shadow 0.3s ease-in-out;
+
+}
+
+.video1:hover{
+    border: 1px solid #fc7c8b;
+    box-shadow: 0 0 0px 30px rgb(253, 214, 214);
+
+}
+
+
+
+/* Video section css end */
+
+/* pumpinsta section css start */
+.pumpinsta{
+    background-color: #eeeeeea8;
+}
+
+.package .pcol{
+    height: 450px;
+}
+/* pumpinsta section css end */
+
+/* Pump insta work section */
+.package .insta_work{
+    height: 540px;
+}
+
+.insta_work {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the heading and button */
+}
+
+.insta_work h5{
+    background-color: #ffaab4;
+    text-align: center;
+    padding: 11px 70px;
+    border-radius: 10px;
+}
+
+.insta_work h5,
+.insta_work h4,
+.insta_work button {
+    text-align: center; 
+}
+
+.insta_work button{
+    text-align: center;
+    color: #E90B24; 
+    border: 2px solid #E90B24;
+}
+.insta_work button:hover {
+
+    color: #fff; 
+    background-color: #E90B24;
+}
+
+.insta_work h2{
+    margin: 30px 0px;
+}
+
+.insta_work h2,
+.insta_work p {
+    text-align: left;
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
+
+
+/* Pump insta work section */
+
+/* Footer section css start */
+.botton{
+    background-color: #eeeeeea8;
+}
+
+.frow{
+    padding: 30px 0px;
+}
+
+.footer_logo p{
+    margin: 30px 0px;
+}
+
+.policy ul{
+    padding: 0;
+    list-style: none;
+    
+}
+
+.policy h5,
+.signup h5{
+    margin-bottom: 40px;
+}
+.signup p{
+    margin-bottom: 40px;
+}
+.policy ul li{
+    margin: 10px 0px;
+}
+
+.policy ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #a09f9f;
+}
+.policy ul li a:hover{
+    color: #a09f9f;
+}
+
+
+/* Footer section css end */
