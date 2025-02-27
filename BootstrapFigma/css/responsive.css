@@ -1,0 +1,111 @@
+@media (max-width:576px) {
+    h1{
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 28px;
+    }
+
+    h3{
+        font-size: 25px;
+    }
+
+    .navbar-nav{
+        gap: 20px;
+    }
+
+    .package .pcol{
+        height: 550px;
+    }
+
+    .package .insta_work {
+        height: 640px;
+    } 
+
+    .video1{
+        height: 50px;
+        width: 50px;
+    }
+
+    .video1 img{
+        height: 20px;
+        width: 20px;
+    }
+
+}
+
+@media (min-width:577px) and (max-width:768px) {
+    h1{
+        font-size: 35px;
+    }
+
+    h2{
+        font-size: 32px;
+    }
+
+    h3{
+        font-size: 30px;
+    } 
+
+    .navbar-nav{
+        gap: 10px;
+    }
+
+    .package .pcol{
+        height: 550px;
+    }
+
+    .package .insta_work {
+        height: 640px;
+    } 
+
+    .video1{
+        height: 80px;
+        width: 80px;
+    }
+
+    .video1 img{
+        height: 40px;
+        width: 40px;
+    }
+
+}
+
+@media (min-width:769px) and (max-width:992px) {
+    h1{
+        font-size: 35px;
+    }
+
+    h3{
+        font-size: 30px;
+    } 
+
+    .package .pcol{
+        height: 550px;
+    }
+
+    .navbar-nav{
+        gap: 20px;
+    }
+    
+
+    .package .insta_work {
+        height: 640px;
+    } 
+    
+    .video1{
+        height: 100px;
+        width: 100px;
+    }
+
+    .video1 img{
+        height: 50px;
+        width: 50px;
+    }
+
+}
+@media (min-width:993px){
+
+
+}

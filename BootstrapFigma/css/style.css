@@ -62,13 +62,14 @@ p{
     
 }
 .banner_first p{
-    width: 395px;
+    max-width: 395px;
     
 }
 
 .banner_second img{
-    margin-left: -13rem;
+    min-width: 300px;
 }
+
 
 /* Banner section css end */
 
@@ -100,12 +101,9 @@ p{
     height: 400px;
 }
 
-
-
 .package .p-5{
     box-shadow: 0 8px 55px 0 rgba(195, 195, 195, 0.2), 0 8px 20px 0 rgba(181, 181, 181, 0.19);
     border-radius: 30px;
-
 }
 
 .package h4{
@@ -140,6 +138,11 @@ p{
     box-shadow: 0 0 0px 30px rgb(253, 214, 214);
 
 }
+
+/* .video2 img{
+    height: 100%;
+    width: 100%;
+} */
 
 
 
@@ -206,6 +209,28 @@ p{
 
 
 /* Pump insta work section */
+
+
+/* Accordion section css start */
+
+
+.accordion-button::after {
+	background-image: url("/BootstrapFigma/images/plus.png");
+}
+
+.accordion-button:not(.collapsed)::after {
+	background-image: url("/BootstrapFigma/images/minus.png");
+	transform: var(--bs-accordion-btn-icon-transform);
+}
+
+.accordion-button:not(.collapsed) {
+    color: #E90B24;
+	background-color: #fff;
+
+}
+
+
+/* Accordion section css end */
 
 /* Footer section css start */
 .botton{
